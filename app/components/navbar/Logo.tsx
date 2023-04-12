@@ -7,6 +7,7 @@ const Logo = () => {
   const router = useRouter();
   return (
     <Image
+      onClick={() => router.push("/")}
       priority
       src="/images/logo.png"
       alt="Logo"

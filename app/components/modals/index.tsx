@@ -91,6 +91,7 @@ const Modal: React.FC<ModalProps> = ({
                     />
                   )}
                   <Button
+                    type="submit"
                     onClick={handleSubmit}
                     disabled={disabled}
                     label={actionLabel}

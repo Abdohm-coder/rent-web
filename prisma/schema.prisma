@@ -52,9 +52,9 @@ model Listing {
   createdAt DateTime @default(now())
   category String
   roomCount Int
-  bacthroomCount Int
+  bathroomCount Int
   guestCount Int
-  locationValue Int
+  locationValue String
   userId String @db.ObjectId
   price Int
 

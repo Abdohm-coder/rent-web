@@ -12,7 +12,7 @@ import ClientOnly from "@/components/ClientOnly";
 import { SessionProvider } from "next-auth/react";
 import { Nunito } from "next/font/google";
 
-const font = Nunito({
+export const font = Nunito({
   subsets: ["latin"],
 });
 

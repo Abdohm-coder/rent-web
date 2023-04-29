@@ -19,7 +19,6 @@ export default async function getCurrentUser(
 ) {
   try {
     const session = await getSession(route);
-    console.log("session is: ", session);
 
     if (!session?.user?.email) return null;
 
